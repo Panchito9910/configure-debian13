@@ -19,5 +19,8 @@ sudo apt install -y brave-browser
 # Eliminar firefox
 sudo apt remove -y firefox-esr
 
+# Descargar steam
+curl -o /home/fran/Descargas/steam.deb https://cdn.fastly.steamstatic.com/client/installer/steam.deb
+
 # Reiniciar SO
 sudo reboot
