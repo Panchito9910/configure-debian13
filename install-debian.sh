@@ -5,7 +5,7 @@ sudo apt update
 # Instalar curl
 sudo apt install -y curl
 
-# Instalar entorno de escritorio y de inicio de sesion
+# Instalar entorno de escritorio gnome y de inicio de sesion
 sudo apt install -y gnome-core gdm3
 
 # Instar brave browser
@@ -16,9 +16,6 @@ sudo apt install -y brave-browser
 
 # Eliminar firefox
 sudo apt remove -y firefox-esr
-
-# Descargar steam
-curl -o /home/fran/Descargas/steam.deb https://cdn.fastly.steamstatic.com/client/installer/steam.deb
 
 # Reiniciar SO
 sudo reboot
