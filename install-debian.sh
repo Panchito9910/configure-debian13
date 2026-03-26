@@ -6,7 +6,7 @@ sudo apt update
 sudo apt install -y curl
 
 # Instalar entorno de escritorio gnome y de inicio de sesion
-sudo apt install -y gnome-core gdm3
+sudo apt install -y gnome-core gnome-tweaks gnome-shell-extensions gdm3
 
 # Instar brave browser
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
